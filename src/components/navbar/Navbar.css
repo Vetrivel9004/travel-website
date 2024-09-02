@@ -1,0 +1,157 @@
+
+.navbar{
+    height: 50px;
+}
+.scroll-header {
+    background-color: white;
+    box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        height: calc(3rem + 1.5rem);
+    }
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scroll-header .nav__logo, .scroll-header .nav__toggle {
+    color:hsl(190, 64%, 18%) ;
+}
+.nav__logo {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+  
+}
+
+@media screen and (min-width: 768px) {
+    .nav__list {
+        flex-direction: row;
+        column-gap: 4rem;
+    }
+}
+
+.nav__list {
+    display: flex;
+    row-gap: 2.5rem;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+@media screen and (min-width: 768px) {
+    .scroll-header .active-link {
+        color: hsl(190, 64%, 18%) ;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav__link {
+        text-transform: initial;
+    }
+}
+.active-link {
+    position: relative;
+}
+
+.nav__link {
+
+    font-weight: 600;
+    
+}
+@media screen and (min-width: 768px) {
+    .nav__dark {
+        position:absolute;
+    }
+}
+.nav__dark {
+    display: flex;
+    align-items:center;
+    column-gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .change-theme-name {
+        display: none;
+    }
+}
+.change-theme-name {
+    font-size: .875rem;
+}
+.change-theme, .change-theme-name {
+    color:  hsl(190, 24%, 35%);
+}
+
+@media screen and (min-width: 768px) {
+    .scroll-header .change-theme {
+        color:  hsl(190, 24%, 35%);;
+    }
+}
+
+.change-theme {
+    cursor: pointer;
+    font-size: 1rem;
+}
+.ri{
+font-family: 'remixicon';
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 768px) {
+    .nav__toggle, .nav__close {
+        display: none;
+    }
+}
+
+.nav__close {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color:  hsl(190, 64%, 18%) ;
+    cursor: pointer;
+}
+.nav__toggle {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#theme-button{
+    top:20px;
+}

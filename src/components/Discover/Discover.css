@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+title{
+    font-family: "Raleway", sans-serif;
+    padding: 3rem;
+    margin-top: 0%;
+}
+
+.data1{
+    background-image: url('/src/assets/discover1.jpg');
+    width: 250px;
+    height: 400px;
+    font-family: "Raleway", sans-serif; 
+     
+     
+}
+
+.data2{
+    background-image: url('/src/assets/discover2.jpg');
+    width: 250px;
+    height: 400px;
+    font-family: "Raleway", sans-serif;
+    
+    
+}
+
+.data3{
+    background-image: url(/src/assets/discover3.jpg);
+    width: 250px;
+    height: 400px;
+    font-family: "Raleway", sans-serif;
+    
+    
+   
+}
+
+.data4{
+    background-image: url(/src/assets/discover4.jpg);
+    width: 250px;
+    height: 400px;
+    font-family: "Raleway", sans-serif;  
+   
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 1%;
+}
+
+.disc{
+   margin-top: -10%;
+}
+ 
+ .filename{
+    justify-items: center;
+    align-items: center;
+ }
+

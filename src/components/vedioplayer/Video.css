@@ -1,0 +1,35 @@
+.video-container{
+ padding: 30%;
+
+
+}
+.video{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-width: 100%;
+    height: auto;
+    height: 400px;
+    
+}
+
+.para{
+    color:  hsl(190, 24%, 35%) ;
+    font-size:1.1rem;
+    
+   
+    
+}
+.title{
+    font-weight: 500;
+    padding: 3rem;
+    top: 1rem;   
+}
+
+.icon{
+    cursor: pointer;   
+}
+
+.video-details{
+   margin-top: 1rem;
+   padding: 1rem 2rem; 
+}

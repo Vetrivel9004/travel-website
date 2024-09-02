@@ -1,0 +1,70 @@
+.Header{
+    background-image: url('/src/assets/home1.jpg');
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: initial;
+
+}
+
+.Header-content{
+    position: absolute;
+    left: 260px;
+}
+.Header-content span{
+color: white;
+text-align: initial;
+
+
+}
+.details{
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: initial;
+    margin-top: 2%;
+    gap: 10%;
+    
+}
+ .but_homes{
+    background-color: hsl(190, 64%, 22%);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -60%;
+   
+}
+.Header-bottom {
+background-color:hsl(190, 64%, 22%) ;
+padding: 30px;
+position: absolute;
+left: 64%;
+bottom: 50px;
+
+}
+.Header-bottom{
+    display: flex;
+    gap: 20px;
+
+}
+.Header-bottom img{
+    width: 150px;
+    height:100px;
+    overflow: hidden;
+}
+.home_subtitle{
+    display: block;
+    font-weight:bold;
+    font-size: 1.2rem;
+    margin-bottom:0%;
+}
